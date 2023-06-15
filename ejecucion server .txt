@@ -1,0 +1,10 @@
+Back
+ php artisan migrate:fresh --seed
+ php artisan optimize:clear && php artisan serve --host=localhost
+
+Front
+ npm run serve
+
+http://localhost:8080/login
+nelson@amobasoftware.com
+123456789
